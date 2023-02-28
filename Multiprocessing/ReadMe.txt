@@ -1,0 +1,3 @@
+Multi-processing is the use of two or more central processing units (CPUs) within a single computer system. The different processes run concurrently and share the memory.
+
+MultiProcess.py is coded to visit each url on the list and measure the time it takes to visit all of the urls using varying number of processes. The list of urls can be found in the url.txt file found in the handout. urlopen is used in this program to open each link and measure the time taken. Then plotted the time on the X-axis and number of urls visited on the Y-axis using 1,2 and 4 processes. Plot.show is used to open plot in figure and save plot as image with name including number of process.
